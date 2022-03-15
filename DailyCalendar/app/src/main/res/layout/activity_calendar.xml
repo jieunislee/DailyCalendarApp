@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Haru_Calendar">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:mcv_dateTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:mcv_headerTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:mcv_selectionColor="#a9dbf0cb"
+        app:mcv_showOtherDates="defaults"
+        app:mcv_tileHeight="match_parent"
+        app:mcv_weekDayTextAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+
+    <LinearLayout
+        android:id="@+id/my_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/view_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="#7ad0f4"/>
+
+        <TextView
+            android:id="@+id/txt_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="더보기"
+            android:textAlignment="gravity"
+            android:gravity="right"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|right"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/round_add_black_48dp"
+        android:tint="@android:color/white"
+        app:layout_anchor="@id/calendarView"
+        app:layout_anchorGravity="bottom|right|end" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "475103899679",
+    "firebase_url": "https://haru-38971.firebaseio.com",
+    "project_id": "haru-38971",
+    "storage_bucket": "haru-38971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475103899679:android:23fa5a75a16f7485",
+        "android_client_info": {
+          "package_name": "com.koreais.haruproject3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475103899679-6mi1vkdouhjc264tgbp3irom0m0tbu5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koreais.haruproject3",
+            "certificate_hash": "1a3dce38d94fa7516509a2a73bcfbe0dd60573cf"
+          }
+        },
+        {
+          "client_id": "475103899679-hpjihuaio44kmhe1qaam0ept6qcshg0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg4R5WNPJNDO-gjRhis8q-nOqiWDIBCiQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475103899679-hpjihuaio44kmhe1qaam0ept6qcshg0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
