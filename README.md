@@ -12,4 +12,5 @@ Visit: https://www.jieunlee.org/calendarapp for more information.
 
 ## Requirements
 
-- Android Studio 
+- Android Studio
+- Android API
